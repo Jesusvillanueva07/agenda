@@ -6,10 +6,17 @@ jesus david villanueva ficha: 2558427
 ## dia 12/08/22
 ### programacion visual basic
 sub sena ()
+
  nom = "luis"
+
  msgbox nom
+
  num = 10
+
  msgbox num
+
  nom = "maria"
+
  msgbox "el nombre es:" & nom 
+ 
 end sub
