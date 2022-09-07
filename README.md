@@ -22,6 +22,7 @@ sub sena ()
 end sub
 
 ### taller visual basic 1
+~~~
 Sub programa()
   Z = InputBox("pago anual:")
   
@@ -73,5 +74,24 @@ Sub programa()
      End If
      
            End If
+  ~~~
+
+
+## nuevo codigo 
+
+~~~
+Sub ultimos()
+
+    For v = 2 To 21
+    nom = b.Cells(v, 1)
+    num = b.Cells(v, 2)
+    mun = b.Cells(v, 3)
+    a = Int(Len(nom)) - 1
+    b.Cells(v, 4) = Mid(nom, a, 4) & Mid(num, 1, 2) & Mid(mun, 1, 2)
+    Next v
+    
+    
+End Sub
+~~~
      
      
